@@ -59,9 +59,27 @@
   z-index: 1000;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.297);
+  background-color: rgba(0, 0, 0, 0.5);
   top: 0;
 }
-.button:active .form {
-  display: block;
+.form_cont {
+  background-color: black;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 40rem;
+  padding: 1.5rem;
+}
+.cancel {
+  font-size: 2rem;
+  text-align: right;
+}
+.cancel > span:hover {
+  cursor: pointer;
+}
+.center_name {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
 }
